@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hulu Clone
 
-## Getting Started
+# Sobre o projeto
 
-First, run the development server:
+O projeto é um clone da página principal da Hulu desenvolvido com NextJS, Typescript e Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Foi utilizada a API <a href = "https://developers.themoviedb.org/3/getting-started/introduction">The Movie Database (TMDB)</a> para obter os dados dos filmes. O site é totalmente responsivo, as requisições são realizadas via Server Side Rendering e é possível filtrar os filmes por gênero.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demonstração 👨‍💻
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<img src="./public/project.gif" alt="gif">
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 💻 Projeto em produção
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### https://gshulu-clone.vercel.app/
 
-## Learn More
+## 🚀 Tecnologias Usadas
 
-To learn more about Next.js, take a look at the following resources:
+- ✔️ [Next.js](https://nextjs.org/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✔️ [Typescript](https://www.typescriptlang.org/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- ✔️ [React](https://pt-br.reactjs.org/)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- ✔️ [Tailwind CSS](https://tailwindcss.com/)
